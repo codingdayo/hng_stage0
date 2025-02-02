@@ -13,10 +13,11 @@ import java.time.Instant;
 import java.time.format.DateTimeFormatter;
 
 
-@CrossOrigin(origins = "hngstage0-production-f335.up.railway.app", maxAge = 3600)
+//@CrossOrigin(origins = "hngstage0-production-f335.up.railway.app", maxAge = 3600)
 @RestController
 @RequestMapping("/api/v1")
 @RequiredArgsConstructor
+@CrossOrigin(origins = "*")
 public class UserController {
 
     @GetMapping("/userInfo")
