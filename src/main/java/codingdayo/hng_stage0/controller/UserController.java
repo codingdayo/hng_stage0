@@ -19,7 +19,7 @@ import java.time.format.DateTimeFormatter;
 @RequiredArgsConstructor
 public class UserController {
 
-    @GetMapping("/")
+    @GetMapping("/userInfo")
     public UserInfo userInfo(){
         String email = "awoniyipaul2018@gmail.com";
         String current_datetime = DateTimeFormatter.ISO_INSTANT.format(Instant.now());
