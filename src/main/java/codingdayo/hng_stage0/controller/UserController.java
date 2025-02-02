@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.time.Instant;
 import java.time.format.DateTimeFormatter;
 
-@CrossOrigin(origins = "changhttps://hngstage0-production-f335.up.railway.app/", maxAge = 3600)
+@CrossOrigin(origins = "https://hngstage0-production-f335.up.railway.app/", maxAge = 3600)
 @RestController
 @RequestMapping("/")
 @RequiredArgsConstructor
