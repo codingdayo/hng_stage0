@@ -14,7 +14,7 @@ import java.time.format.DateTimeFormatter;
 
 @CrossOrigin(origins = "https://hngstage0-production-780b.up.railway.app/", maxAge = 3600)
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api/v1/UserInfo")
 @RequiredArgsConstructor
 public class UserController {
 
